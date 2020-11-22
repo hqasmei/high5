@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hand.raised" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="rfK-fd-th7">
+                                <rect key="frame" x="17" y="257" width="380" height="380.5"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="380" id="VYb-wR-L56"/>
+                                    <constraint firstAttribute="height" constant="380" id="q3b-J4-3v6"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="highFive" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mne-1a-5td">
+                                <rect key="frame" x="108" y="648" width="198" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="HFx-oA-a0e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="41"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="rfK-fd-th7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="1xd-5m-vcJ"/>
+                            <constraint firstItem="rfK-fd-th7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8JF-HI-enJ"/>
+                            <constraint firstItem="Mne-1a-5td" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="225" id="A8V-en-JKk"/>
+                            <constraint firstItem="Mne-1a-5td" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WLk-O2-MBf"/>
+                            <constraint firstItem="rfK-fd-th7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Xfs-CZ-OQf"/>
+                            <constraint firstItem="rfK-fd-th7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ec3-lQ-QHz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="hand.raised" catalog="system" width="128" height="128"/>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
